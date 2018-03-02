@@ -7,11 +7,9 @@ Requirements:
 	Progressive enhancement & unobtrusive JavaScript
 		No inline JavaScript. All JavaScript is linked from an external file.
 		Use unobtrusive JavaScript to append markup for the pagination links
-
-	Pagination Links
+	Pagination Links:
 		No links appear for pagination, pagination is hard coded, or the incorrect number of links are displayed.
 		Pagination links are created. If there are 44 students, 5 links should be generated, if there’s 66, 7 links should be generated.
-
 	Paging
 		The first 10 students aren’t shown when the page loads.
 		Nothing happens when the links are clicked, or the incorrect number of students are displayed.
@@ -27,7 +25,5 @@ Objectives:
 Exceeds Expectations:
 	I'm shooting for the "Exceeds Expectations" grade by:
 		Use unobtrusive JavaScript to append HTML for a search bar and pagination links
-
 		Pagination links display based on how many search results are returned. For example: if 10 or fewer results are returned, 0 pagination links are displayed. If 22 search results are returned, 3 pagination links are displayed.
-
 		When a search yields 0 results, a message informing the user is that no results have been found is displayed in place of results
